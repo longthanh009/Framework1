@@ -1,3 +1,4 @@
 <app-hearder></app-hearder>
-<router-outlet></router-outlet>
+<app-product [products]="products"></app-product>
+<app-product-add (onAdd)="handlerAdd($event)"></app-product-add>
 <app-footer></app-footer>
